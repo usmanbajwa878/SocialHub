@@ -1,0 +1,114 @@
+import { StyleSheet } from 'react-native';
+import { COLORS } from '../../../Constants/AppConstants';
+
+const styles = StyleSheet.create({
+    container:{
+        flex:1
+    },
+    bottomView:{
+        flexDirection:'row',
+        backgroundColor:COLORS.smokeWhite,
+        bottom:0,
+        width:'100%',
+        height:90,
+        alignItems:'flex-start',
+        borderWidth:1,
+        borderColor:COLORS.NormalLightGrey,
+        borderTopLeftRadius:20,
+        borderTopRightRadius:20,
+        justifyContent:'space-around',
+    
+    },
+    inputContainer:{
+        width:'70%',
+        height:40,
+        //backgroundColor:COLORS.BORDER_GRAY,
+        marginTop:10,
+        borderWidth:1,
+        borderColor:COLORS.TRANSPARENT,
+        borderRadius:5,
+    },
+    input:{
+        padding:10,
+        color:COLORS.CTA,
+        
+    },
+    btnContainer:{
+        width:'10%',
+        justifyContent:'center',
+        alignItems:"center",
+        height:40,
+        marginTop:10
+    },
+    leftContainer:{
+        flexDirection:'row',
+        width:'80%',
+        borderWidth:1,
+        borderColor:COLORS.LIGHT_GREY,
+        backgroundColor:COLORS.lightGrey,
+        marginVertical:2,
+        marginHorizontal:5,
+        borderRadius:30,
+        minHeight:50,
+        right:100,
+        left:0,
+        alignContent:'flex-start'
+    },
+    rightContainer:{
+        flexDirection:'row',
+        width:'80%',
+        borderWidth:1,
+        borderColor:COLORS.CTA,
+        backgroundColor:COLORS.CTA,
+        marginVertical:2,
+        marginHorizontal:5,
+        borderRadius:30,
+        minHeight:50,
+        right:0,
+        left:70
+    },
+    messageContainer:{
+        flex:1,
+        marginVertical:10
+    },
+    profileImageContainer:{
+        height:20,
+        width:20,
+        borderRadius:10,
+        borderWidth:1,
+        marginHorizontal:10,
+        marginVertical:15,
+        borderColor:COLORS.TRANSPARENT,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    textContainer:{
+        width:'80%',
+        justifyContent:'center',
+        minWidth:'40%'
+    },
+    righttextContainer:{
+        width:'80%',
+        justifyContent:'center',
+        marginHorizontal:10,
+        alignItems:'flex-end'
+    },
+    rightprofileImageContainer:{
+        height:20,
+        width:20,
+        borderRadius:10,
+        borderWidth:1,
+        marginVertical:15,
+        borderColor:COLORS.TRANSPARENT,
+        justifyContent:'center',
+        alignItems:'center',
+        marginHorizontal:5,
+    },
+    profileImage:{
+        width:'100%',
+        height:'100%'
+    }
+    
+});
+
+export default styles;
